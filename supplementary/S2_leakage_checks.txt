@@ -1,0 +1,8 @@
+1  split isolation at unit level: enrollment
+2  no pre-registration, post-withdrawal or post-course rows
+3  causal features unchanged when data after week 18 is removed (47 features)
+4  assessment features match a manual past-only recomputation on 400 random rows
+5  target recomputed independently on 1000 random samples
+6  no forbidden inputs; every window ends at week t
+7  scaler statistics and engagement reference were fitted on train data only
+8  no single feature determines the label (maximum single-feature AUC 0.622: weeks_to_next_deadline)
